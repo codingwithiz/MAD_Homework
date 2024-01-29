@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D96DD"
+    tools:context=".DogFragment">
+
+    <TextView
+        android:id="@+id/TVDogTitle"
+        android:layout_width="101dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="233dp"
+        android:layout_marginTop="509dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="241dp"
+        android:fontFamily="cursive"
+        android:text="Woof"
+        android:textColor="#6621DF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/IVDog"
+        android:layout_width="255dp"
+        android:layout_height="284dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="241dp"
+        android:src="@drawable/dog_puppy_on_garden_royalty_free_image_1586966191"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>

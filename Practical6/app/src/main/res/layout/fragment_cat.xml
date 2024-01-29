@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".CatFragment">
+
+    <TextView
+        android:id="@+id/TVCatTitle"
+        android:layout_width="101dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="182dp"
+        android:fontFamily="cursive"
+        android:text="Meow"
+        android:textColor="#6621DF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/IVCat"
+        android:layout_width="245dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="239dp"
+        android:src="@drawable/top_10_cutest_cat_photos_of_all_time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>
